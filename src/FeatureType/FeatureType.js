@@ -18,13 +18,14 @@ class FeatureType extends React.Component {
         item={item}
         updateFeature={this.props.updateFeature}
       />
-    })
-      return (
-        <fieldset className="feature">
-          <legend className="feature__name">
-            <h3>{this.props.featureName}</h3>
-          </legend>
-          {items}
+    });
+
+    return (
+      <fieldset className="feature">
+        <legend className="feature__name">
+          <h3>{this.props.featureName}</h3>
+        </legend>
+        {items}
       </fieldset>
     );
   }

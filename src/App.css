@@ -2,19 +2,6 @@
   box-sizing: border-box;
 }
 
-header {
-  background-color: #252525d2;
-  color: #fff;
-  padding: 2rem;
-}
-
-header > h1,
-main {
-  width: 95%;
-  max-width: 120rem;
-  margin: 0 auto;
-}
-
 main {
   width: 95%;
   max-width: 120rem;

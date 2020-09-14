@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import FeatureForm from './FeatureForm/FeatureForm';
+import Header from './Header/Header';
 import Summary from './Summary/Summary';
 
 class App extends Component {
@@ -36,12 +37,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <h1>ELF Computing | Laptops</h1>
-        </header>
+        <Header />
         <main>
             <FeatureForm
-              features={this.props.features}
               selected={this.state.selected}
               updateFeature={(feature, newValue) => this.updateFeature(feature, newValue)}
             />

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 legend > h3 {
   margin: 0;
 }

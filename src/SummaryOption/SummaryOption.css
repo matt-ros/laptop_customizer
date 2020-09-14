@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .summary__option {
   display: grid;
   grid-template-areas:

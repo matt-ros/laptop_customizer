@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Hide radios from sighted users,
 while keeping them available to the keyboard */
 .feature__option {
